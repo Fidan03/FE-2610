@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-main {
+    max-width: 1248px;
+    margin: auto;
+}
+
+h1 {
+    margin: 15px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 1px 4px 26px -3px rgba(0,0,0,0.75) ;
+    width: 325px;
+    border-radius: 15px;
+    background-color: #2E2E2E;
+    color: white;
+}
+
+.card-header {
+    background-image: url('https://www.liquitex.com/cdn/shop/files/113202_375x375_crop_center.jpg?v=1698860429');
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+}
+
+.price {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    margin-left: 10px;
+    align-items: center;
+    background-color: rgba(204, 204, 204, 0.3)
+}
+
+.tag {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.price span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price h4 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.card-header h2 {
+    padding: 15px;
+    font-size: 35px;
+}
+
+.card-content, 
+.card-footer {
+    padding: 15px;
+}
+
+.img img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.info h3{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.progres {
+    background-color: darkgrey;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.bar-1 {
+    background-color: #E63946;
+    height: 2px;
+    width: 40%;
+}
+
+.bar-2 {
+    background-color: #E63946;
+    height: 2px;
+    width: 50%;
+}
+
+.bar-3 {
+    background-color: #E63946;
+    height: 2px;
+    width: 65%;
+}
+
+.bar-4 {
+    background-color: #E63946;
+    height: 2px;
+    width: 50%;
+}
+
+.bar-5 {
+    background-color: #E63946;
+    height: 2px;
+    width: 80%;
+}
+
+.bar-6 {
+    background-color: #E63946;
+    height: 2px;
+    width: 80%;
+}
+
+.first {
+    display: flex;
+    gap: 10px;
+}
+
+.section-one {
+    margin: 20px 0;
+}
+
+.section-two {
+    margin: 5px -5px;
+}
+
+
+.bonus {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #2E2E2E;
+    opacity: 1;
+    color: White;
+    padding: 15px;
+    margin: -15px 0 0 0;
+    font-size: 15px;
+}
+
+.bonus-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 15px 5px;
+    margin-bottom: 45px;
+}
+
+.part-one,
+.part-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.container-cards :hover {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 25px 7px rgba(0,0,0,0.75);
+}
